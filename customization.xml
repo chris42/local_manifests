@@ -2,7 +2,9 @@
 <manifest>
 
 <remote name="chris42" fetch="https://github.com/chris42" />
+<remote  name="seedvault-app" fetch="https://github.com/seedvault-app/" />
 
-<project path="device/chris42/customization/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="chris42" revision="master" />
+<project path="external/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="chris42" revision="master" />
+<project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="4906a00786012ac638cd89de8549c2bb3b9579e6" />
 
 </manifest>
